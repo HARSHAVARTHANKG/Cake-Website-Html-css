@@ -44,7 +44,7 @@ body
 }
 .Main-Background .Header .info a
 {
-   font-size: large;
+   font-size: medium;
    color: rgb(255, 255, 255);
    text-decoration: none;
 }
@@ -115,7 +115,7 @@ body
 
 .Main-Background .Footer .fcp a
 {
-   font-size:large;
+   font-size:medium;
    color: rgb(255, 255, 255);
    text-decoration: none;
 }
