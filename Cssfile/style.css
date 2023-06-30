@@ -1,0 +1,231 @@
+body
+{
+   background: url("../assets/images/cakeimage.png");
+}
+
+.Main-Background
+{
+   display: grid;
+   height: 100vh;
+   grid-template-rows: 20vh 70vh 10vh;
+}
+
+.Header
+{
+
+   display: flex;
+   gap :10px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+
+
+
+
+.Header .Title
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+   gap :15px;
+
+
+}
+.Header .Title img
+{
+   height: 65px;
+   width: 65px;
+}
+.Header .Title h1{
+   font-size: 40px;
+   color: rgb(255, 95, 95);
+}
+.Main-Background .Header .info a
+{
+   font-size: large;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.Main-Background .Header .info a:hover{
+   color: rgb(243, 114, 114);
+}
+
+
+
+.Header .info{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding: 15px;
+}
+
+.MainPage
+{
+   color:rgb(253, 106, 106);
+   font-size: 1.8rem;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+
+.MainPage p{
+   color:rgb(255, 255, 255)
+}
+
+
+
+.Main-Background .Footer
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+ 
+}
+
+.Footer .copyright
+{
+   color:white;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+
+
+
+.Main-Background .Footer .fcp
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   margin-left:20px;
+
+}
+
+.Main-Background .Footer .fcp a
+{
+   font-size:large;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+.Main-Background .Footer .fcp a:hover{
+   color: rgb(255, 120, 120);
+}
+
+@media (max-width:375px)
+{
+   .Header .Title img
+   {
+      height: 60px;
+      width: 60px;
+   }
+   .Header .Title h1{
+      font-size: 30px;
+      color: rgb(252, 252, 252);
+   }
+
+   .MainPage{
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0px;
+   }
+
+   .Main-Background .Header .info a
+   {
+      font-size:medium;
+   }
+
+   .Main-Background .Footer .fcp a
+   {
+      font-size:medium;
+   }
+   
+}
+
+@media (max-width:540px)
+{
+   .Header .Title img
+   {
+      height: 60px;
+      width: 60px;
+   }
+   .Header .Title h1{
+      font-size: 30px;
+      color: rgb(252, 252, 252);
+   }
+
+   .MainPage{
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0px;
+      font-size: 1rem;
+   }
+
+   .Main-Background .Header .info a
+   {
+      font-size:medium;
+   }
+
+   .Main-Background .Footer .fcp a
+   {
+      font-size:medium;
+   }
+}
+
+
+@media (max-width:280px)
+{
+   .Header .Title img
+   {
+      height: 40px;
+      width: 40px;
+   }
+   .Header .Title h1{
+      font-size: 20px;
+      color: rgb(252, 252, 252);
+   }
+   .MainPage{
+      font-size: 1rem;
+      margin-bottom: 0px;
+   }
+
+   .Main-Background .Header .info a
+   {
+      font-size:x-small;
+   }
+
+   .Main-Background .Footer .fcp a
+   {
+      font-size:x-small;
+   }
+
+   .Main-Background .Footer .fcp
+   {
+      margin-left: 10px;;
+   }
+
+}
+
+@media (max-width:2000px) and (min-width:1114px)
+{
+   .MainPage
+   {
+      margin-bottom: 150px;
+   }
+   .Main-Background .Footer .fcp
+   {
+      gap:30px
+   }
+}
